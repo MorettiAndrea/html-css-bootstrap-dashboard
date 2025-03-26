@@ -53,9 +53,19 @@
         <!-- header dx -->
 
         <div class="d-flex align-items-center pt-2 pe-2 gap-3">
-          <label><input type="show" value="Cerca..." />Cerca...</label>
-          <div>
-            <button class="btn text-white bg-dark border-white">Cerca</button>
+          <label
+            ><input
+              class="ps-2 d-none d-lg-block"
+              type="show"
+              placeholder="Cerca..."
+          /></label>
+          <div class="bg-dark d-none d-lg-block">
+            <button class="btn text-white border-white">Cerca</button>
+          </div>
+          <div class="d-lg-none">
+            <button class="btn-outline-secondary bg-dark ps-2 pe-2">
+              <i class="fa-solid fa-bars text-secondary fs-5"></i>
+            </button>
           </div>
         </div>
       </header>
