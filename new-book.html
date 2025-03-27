@@ -48,7 +48,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
                   >Catalogo Libri</a
                 >
               </li>
@@ -76,16 +79,16 @@
         <h1 class="mt-3 mb-3">Nuovo Libro</h1>
         <div class="row">
           <div class="col-6">
-            <label for="nome-autore" class="mb-2">Nome Autore</label>
+            <label for="nome-autore">Nome Autore</label>
             <input
               type="text"
               placeholder="Inserisci il nome dell'autore"
-              class="w-100 text-secondary ps-2pt-1 pb-1"
+              class="w-100 ps-2 pt-1 pb-1"
               id="nome-autore"
             />
           </div>
           <div class="col-6">
-            <label for="cognome-autore" class="mb-2">Cognome Autore</label>
+            <label for="cognome-autore">Cognome Autore</label>
             <input
               type="text"
               placeholder="Inserisci il cognome dell'autore"
@@ -101,7 +104,7 @@
       <div class="form-group">
         <div class="row">
           <div class="col-12">
-            <label for="titolo" class="mb-2">Titolo</label>
+            <label for="titolo">Titolo</label>
             <input
               type="text"
               placeholder="Inserisci il titolo del libro"
@@ -120,7 +123,7 @@
       <div class="form-group">
         <div class="row">
           <div class="col-12 col-lg-4">
-            <label class="mb-2" for="genere ">Genere</label>
+            <label for="genere ">Genere</label>
             <select class="form-control form-select" id="genere">
               <option>Scegli il Genere</option>
               <option>2</option>
@@ -130,7 +133,7 @@
             </select>
           </div>
           <div class="col-12 col-lg-4">
-            <label for="anno" class="mb-2">Anno di publicazione</label>
+            <label for="anno">Anno di publicazione</label>
             <input
               type="text"
               placeholder="Inserisci l'anno"
@@ -139,7 +142,7 @@
             />
           </div>
           <div class="col-12 col-lg-4">
-            <label for="titolo" class="mb-2">ISBN#</label>
+            <label for="titolo">ISBN#</label>
             <input
               type="text"
               placeholder="Inserisci il codice ISBN #"
@@ -159,6 +162,37 @@
       </div>
 
       <!-- sezione note -->
+      <div class="row">
+        <div class="col-12">
+          <div class="form-group">
+            <label for="note">Note</label>
+            <textarea
+              class="form-control ps-2"
+              id="note"
+              placeholder="Inserisci eventuali note sul libro"
+              rows="5"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- sezione checkbox -->
+
+      <div class="row">
+        <div class="col-12">
+          <div class="form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="check-digitale"
+            />
+            <label class="form-check-label" for="check-digitale"
+              >Disponibile anche in digitale
+            </label>
+          </div>
+          <button class="btn btn-primary">Aggiungi Libro</button>
+        </div>
+      </div>
     </div>
 
     <script
