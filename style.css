@@ -11,3 +11,6 @@ a {
 .radius {
   border-radius: 7px;
 }
+[class*="col"] {
+  margin-bottom: 1rem;
+}

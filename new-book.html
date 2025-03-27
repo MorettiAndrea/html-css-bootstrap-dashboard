@@ -80,7 +80,7 @@
             <input
               type="text"
               placeholder="Inserisci il nome dell'autore"
-              class="w-100 text-secondary ps-2 pb-1"
+              class="w-100 text-secondary ps-2pt-1 pb-1"
               id="nome-autore"
             />
           </div>
@@ -89,7 +89,7 @@
             <input
               type="text"
               placeholder="Inserisci il cognome dell'autore"
-              class="w-100 text-secondary ps-2 pb-1"
+              class="w-100 text-secondary ps-2 pt-1 pb-1"
               id="nome-autore"
             />
           </div>
@@ -99,19 +99,66 @@
       <!-- sezione titolo -->
 
       <div class="form-group">
-        <div class="col-12">
-          <label for="titolo" class="mb-2">Titolo</label>
-          <input
-            type="text"
-            placeholder="Inserisci il titolo del libro"
-            class="w-100 text-secondary ps-2 pb-1"
-            id="nome-autore"
-          />
-          <small id="emailHelp" class="form-text text-muted"
-            >Titolo versione italiana</small
-          >
+        <div class="row">
+          <div class="col-12">
+            <label for="titolo" class="mb-2">Titolo</label>
+            <input
+              type="text"
+              placeholder="Inserisci il titolo del libro"
+              class="w-100 text-secondary ps-2 pt-1 pb-1"
+              id="nome-autore"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >Titolo versione italiana</small
+            >
+          </div>
         </div>
       </div>
+
+      <!-- colonne-12 lg-4 -->
+
+      <div class="form-group">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <label class="mb-2" for="genere ">Genere</label>
+            <select class="form-control form-select" id="genere">
+              <option>Scegli il Genere</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+          <div class="col-12 col-lg-4">
+            <label for="anno" class="mb-2">Anno di publicazione</label>
+            <input
+              type="text"
+              placeholder="Inserisci l'anno"
+              class="w-100 text-secondary ps-2 pt-1 pb-1"
+              id="anno"
+            />
+          </div>
+          <div class="col-12 col-lg-4">
+            <label for="titolo" class="mb-2">ISBN#</label>
+            <input
+              type="text"
+              placeholder="Inserisci il codice ISBN #"
+              class="w-100 text-secondary ps-2 pt-1 pb-1"
+              id="nome-autore"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- riga spazio -->
+
+      <div class="row">
+        <div class="col-12 text-secondary mb-5 mt-5">
+          <div class="border"></div>
+        </div>
+      </div>
+
+      <!-- sezione note -->
     </div>
 
     <script
